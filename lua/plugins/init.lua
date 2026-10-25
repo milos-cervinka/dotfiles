@@ -34,4 +34,15 @@
 
 ---@param repo string
 ---@return string
-local function gh(repo) return 'https://github.com/' .. repo end
+function gh(repo) return 'https://github.com/' .. repo end
+
+require('plugins.tokyonight')
+require('plugins.ui')
+require('plugins.gitsigns')
+require('plugins.telescope')
+require('plugins.tresitter')
+require('plugins.lsp')
+require('plugins.completion')
+require('plugins.formatting')
+require('plugins.oil')
+require('plugins.toggleterm')
